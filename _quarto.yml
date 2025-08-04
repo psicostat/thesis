@@ -37,6 +37,13 @@ book:
     - appendices/appendix-a.qmd
   downloads: [pdf]
   output-file: "thesis"
+  sidebar:
+    logo: img/unipd.svg
+  favicon: img/favicon.png
+  repo-url: https://github.com/psicostat/thesis
+
+comments:
+  hypothesis: true
 
 bibliography: references/references.bib
 csl: references/apa7.csl
@@ -62,9 +69,9 @@ format:
       - right=3cm
     linestretch: 1.5
     indent: true
-  # html:
-  #   theme: cosmo
-  #   indent: false
+  html:
+    theme: cosmo
+    indent: false
 
 fig-height: 5
 fig-width: 8
