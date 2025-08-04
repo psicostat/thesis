@@ -41,3 +41,4 @@ vignettes/*.pdf
 /*_files/
 
 venv/
+.DS_Store
