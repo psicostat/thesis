@@ -1,0 +1,87 @@
+project:
+  type: book
+  output-dir: _thesis
+  post-render: 
+    - quarto-scripts/split-chapters.py
+
+department: Dipartimento di Psicologia dello Sviluppo e della Socializzazione
+degree: Corso di laurea magistrale in Psicologia Clinica dello Sviluppo
+thesis: Tesi di laurea magistrale
+title-ita: Titolo tesi in italiano
+title-eng: Titolo tesi in Inglese
+supervisor-prefix: Relatore
+supervisor-name: Prof. Gianmarco Altoè
+cosupervisor-prefix: Correlatore
+cosupervisor-name: Dr. Filippo Gambarota
+student-prefix: Laureando
+student-name: Filippo Gambarota
+matricola-prefix: Matricola
+matricola: 1111111
+academic-year-prefix: Anno Accademico
+academic-year: 2024/2025
+abstract-title: Abstract
+img-path: "img"
+
+book:
+  title: "{{< meta title-ita >}}" # title of the thesis, in italian
+  subtitle: "{{< meta title-eng >}}" # title of the thesis, in english (just remove if only one)
+  author:
+    name: "Filippo Gambarota"
+    affiliation: "{{< meta department >}}, University of Padova"
+  chapters:
+    - index.qmd
+    - chapters/01.qmd
+    - chapters/02.qmd
+    - chapters/references.qmd
+  appendices: 
+    - appendices/appendix-a.qmd
+  downloads: [pdf]
+  output-file: "thesis"
+
+bibliography: references/references.bib
+csl: references/apa7.csl
+
+format:
+  pdf:
+    documentclass: report
+    # pdf-engine: pdflatex
+    toc: false # this need to be false, we are setting the toc on index.qmd
+    toc-title: Table of Contents
+    template-partials: 
+      - partials/before-body.tex
+      - partials/titlepage.tex
+    include-in-header: 
+      text: |
+        \usepackage{geometry}
+    papersize: a4
+    fontsize: 12pt
+    geometry:
+      - top=3cm
+      - bottom=3cm
+      - left=3cm
+      - right=3cm
+    linestretch: 1.5
+  # html:
+  #   theme: cosmo
+  #   indent: false
+
+filters:
+  - first-line-indent
+
+fig-height: 5
+fig-width: 8
+knitr:
+  opts_chunk:
+    echo: false
+    warning: false
+    message: false
+
+crossref:
+  fig-title: Figure # figure name in the caption
+  fig-prefix: Figure # figure name in the text
+  tbl-title: Table # table name in the caption
+  tbl-prefix: Table # table name in the text
+  lst-title: Code # code name in the caption
+  lst-prefix: Code # code name in the text
+  eq-title: Equation # equation name in the caption
+  eq-prefix: Equation # equation name in the text
