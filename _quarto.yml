@@ -61,12 +61,10 @@ format:
       - left=3cm
       - right=3cm
     linestretch: 1.5
+    indent: true
   # html:
   #   theme: cosmo
   #   indent: false
-
-filters:
-  - first-line-indent
 
 fig-height: 5
 fig-width: 8
