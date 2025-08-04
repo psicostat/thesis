@@ -5,3 +5,15 @@ For using the full project, you need python installed. Then you need the `pypdf`
 ```bash
 python3 -m pip install -r requirements.txt
 ```
+
+# Useful commands and tools
+
+## creating favicon with image magick
+
+```bash
+convert -background white -flatten -density 256 input.svg -resize 256x256 favicon.png
+```
+
+## download favicon from website
+
+- [https://onlineminitools.com/website-favicon-downloader](https://onlineminitools.com/website-favicon-downloader)
