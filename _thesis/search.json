@@ -1,0 +1,63 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Titolo tesi in italiano",
+    "section": "",
+    "text": "Acknowledgments\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n\nAbstract\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "crumbs": [
+      "Acknowledgments"
+    ]
+  },
+  {
+    "objectID": "chapters/01.html",
+    "href": "chapters/01.html",
+    "title": "1  Amazing chapter",
+    "section": "",
+    "text": "1.1 Subsection\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.\nAs shown in Equation 1.1, the gaussian distribution is amazing.\n\\[\nf(x) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\exp\\left( -\\frac{(x - \\mu)^2}{2 \\sigma^2} \\right)\n\\tag{1.1}\\]\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Amazing chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01.html#subsection",
+    "href": "chapters/01.html#subsection",
+    "title": "1  Amazing chapter",
+    "section": "",
+    "text": "1.1.1 Sub-subsection\nAs Knuth (1984) says, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32. The Figure 1.1 shows the relationship between x and y.\n\n\n\n\n\n\n\n\nFigure 1.1: amazing scatterplot\n\n\n\n\n\n\n\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J., 27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Amazing chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02.html",
+    "href": "chapters/02.html",
+    "title": "2  Another amazing chapter",
+    "section": "",
+    "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.\nIn Figure 2.1 you can see an amazing cat.\n\n\n\n\n\n\nFigure 2.1: An amazing cat.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Another amazing chapter</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/references.html",
+    "href": "chapters/references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, D. E. (1984). Literate programming. Comput. J.,\n27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendices/appendix-a.html",
+    "href": "appendices/appendix-a.html",
+    "title": "Appendix A — Title of the appendix",
+    "section": "",
+    "text": "You can write appendixes in the same way as chapters. Just add the class appendix to the header. Be sure to add it as an appendix in _quarto.yml as well.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Title of the appendix</span>"
+    ]
+  }
+]
