@@ -8,7 +8,7 @@ def chapter_name(x):
 
 output = "_chapters"
 
-reader = pypdf.PdfReader("_thesis/thesis.pdf")
+reader = pypdf.PdfReader("docs/thesis.pdf")
 outlines = reader.outline
 
 if not os.path.exists(output):
