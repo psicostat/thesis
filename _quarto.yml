@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _thesis
+  output-dir: docs
   post-render: 
     - quarto-scripts/split-chapters.py
 
@@ -41,6 +41,9 @@ book:
     logo: img/unipd.svg
   favicon: img/favicon.png
   repo-url: https://github.com/psicostat/thesis
+
+execute: 
+  freeze: auto
 
 comments:
   hypothesis: true
